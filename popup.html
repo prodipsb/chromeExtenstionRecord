@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Recording Extension</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            width: 500px;
+            height: 500px;
+            justify-content: center;
+        }
+        h1 {
+            text-align: center;
+        }
+        .btn {
+            display: block;
+            width: 200px;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        #stopBtn {
+            background-color: #dc3545;
+        }
+        #stopBtn:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Screen Recording Extension</h1>
+    <button id="startBtn" class="btn">Start Recording</button>
+    <button id="stopBtn" class="btn" style="display: none;">Stop Recording</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>
